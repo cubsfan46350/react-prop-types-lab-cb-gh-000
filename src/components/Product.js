@@ -23,6 +23,6 @@ Product.PropTypes = {
   hasWatermark: PropTypes.bool,
   color: PropTypes.oneOf(['white', 'eggshell-white', 'salmon']),
   weight: const weightFunction = (props, propName, componentName) => {
-    
+    const value = props[propName];
   }
 }
