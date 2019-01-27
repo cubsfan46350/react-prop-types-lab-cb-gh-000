@@ -24,5 +24,11 @@ Product.PropTypes = {
   color: PropTypes.oneOf(['white', 'eggshell-white', 'salmon']),
   weight: const weightFunction = (props, propName, componentName) => {
     const value = props[propName];
+    if (value > 80 && value < 300) {
+      return value;
+    }
+    else {
+      
+    }
   }
 }
