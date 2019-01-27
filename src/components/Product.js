@@ -28,7 +28,7 @@ Product.PropTypes = {
       return value;
     }
     else {
-      return new
+      return new TypeError
     }
   }
 }
