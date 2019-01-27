@@ -28,7 +28,7 @@ Product.PropTypes = {
       return value;
     }
     else {
-      return new TypeError()
+      return new TypeError('Number must be greater than 80 and less than 300');
     }
   }
 }
