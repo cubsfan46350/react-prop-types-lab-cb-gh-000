@@ -21,5 +21,5 @@ Product.PropTypes = {
   name: PropTypes.string.isRequired,
   producer: PropTypes.string,
   hasWatermark: PropTypes.bool,
-  color: 
+  color: PropTypes.
 }
